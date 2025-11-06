@@ -1,0 +1,560 @@
+<!DOCTYPE html>
+<html lang="ja" data-page="hub">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>bactPlatform | Hub</title>
+    <meta
+      name="description"
+      content="bactPlatform Hub: ツール・教材・研究・ゲームの入口"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/hub.css" />
+  </head>
+  <body class="theme-dark">
+    <header class="hub-header">
+      <div class="brand">
+        <a
+          href="index.html"
+          class="brand-link rainbow"
+          aria-label="Back to landing"
+          >bactPlatform</a
+        >
+      </div>
+      <div class="header-actions">
+        <label class="search">
+          <input
+            id="hubSearch"
+            type="search"
+            placeholder="検索（例: ゲーム, ツール, ILOHA, 細菌学）"
+            aria-label="ハブ内検索"
+          />
+        </label>
+      </div>
+    </header>
+
+    <main class="hub-main" role="main">
+      <!-- 役割の短い説明（内部向けの文は削除） -->
+      <section class="about">
+        <h1 class="hub-title">Hub</h1>
+        <p class="hub-lead">
+          現在運用中の主要サイトを、研究・教育・学習・ゲームまで横断して最短で案内するためのナビゲーションです。
+        </p>
+      </section>
+
+      <!-- ホームページ -->
+      <h2 class="cat-title">ホームページ</h2>
+      <section class="cards" id="cards-home" aria-label="ホームページ">
+        <article class="card" data-tags="home department 教室 細菌学">
+          <div class="card-body">
+            <h3 class="card-title">細菌学教室</h3>
+            <p class="card-desc">大阪公立大学医学部 細菌学教室公式サイト。</p>
+          </div>
+          <div class="card-foot">
+            <div class="card-meta">カテゴリ: Home</div>
+            <a
+              class="btn btn-primary"
+              href="https://www.omu.ac.jp/med/bacteriology/"
+              target="_blank"
+              rel="noopener noreferrer"
+              >開く</a
+            >
+          </div>
+        </article>
+        <article class="card" data-tags="home ILOHA 事前学習 感染症 教育">
+          <div class="card-body">
+            <h3 class="card-title">ILOHA</h3>
+            <p class="card-desc">
+              ILOHA（Infection Lecture at OMU Hospital &
+              Affiliates）。事前学習・用語集ほか。
+            </p>
+          </div>
+          <div class="card-foot">
+            <div class="card-meta">カテゴリ: Home</div>
+            <a
+              class="btn btn-primary"
+              href="https://www.omu.ac.jp/med/iloha/"
+              target="_blank"
+              rel="noopener noreferrer"
+              >開く</a
+            >
+          </div>
+        </article>
+        <article class="card" data-tags="home Fil-GAP 抗菌薬 研修会 AS">
+          <div class="card-body">
+            <h3 class="card-title">Fil-GAP</h3>
+            <p class="card-desc">抗菌薬適正使用研修会（Fil-GAP）公式ページ。</p>
+          </div>
+          <div class="card-foot">
+            <div class="card-meta">カテゴリ: Home</div>
+            <a
+              class="btn btn-primary"
+              href="http://filgap.kenkyuukai.jp/special/index.asp?id=41772"
+              target="_blank"
+              rel="noopener noreferrer"
+              >開く</a
+            >
+          </div>
+        </article>
+      </section>
+
+      <!-- ゲーム関連 -->
+      <h2 class="cat-title">ゲーム関連</h2>
+      <section class="cards" id="cards-games" aria-label="ゲーム関連">
+        <article class="card" data-tags="game 中耳炎 バイキンズ 教育">
+          <div class="card-body">
+            <h3 class="card-title">中耳炎ゲーム</h3>
+            <p class="card-desc">中耳炎ケースで学ぶ意思決定ゲーム。</p>
+          </div>
+          <div class="card-foot">
+            <div class="card-meta">カテゴリ: Game</div>
+            <a
+              class="btn btn-primary"
+              href="https://html5.plicy.net/GamePlay/188400"
+              target="_blank"
+              rel="noopener noreferrer"
+              >開く</a
+            >
+          </div>
+        </article>
+        <article class="card" data-tags="game 菌血症 バイキンズ 教育">
+          <div class="card-body">
+            <h3 class="card-title">菌血症ゲーム</h3>
+            <p class="card-desc">菌血症の診断・治療思考を体験。</p>
+          </div>
+          <div class="card-foot">
+            <div class="card-meta">カテゴリ: Game</div>
+            <a
+              class="btn btn-primary"
+              href="https://html5.plicy.net/GamePlay/188399"
+              target="_blank"
+              rel="noopener noreferrer"
+              >開く</a
+            >
+          </div>
+        </article>
+        <article class="card" data-tags="game バイキンズ 戦略 AMR">
+          <div class="card-body">
+            <h3 class="card-title">バイキンズウォー</h3>
+            <p class="card-desc">バイキンズの世界で戦略的に学ぶ。</p>
+          </div>
+          <div class="card-foot">
+            <div class="card-meta">カテゴリ: Game</div>
+            <a
+              class="btn btn-primary"
+              href="https://html5.plicy.net/GamePlay/155481"
+              target="_blank"
+              rel="noopener noreferrer"
+              >開く</a
+            >
+          </div>
+        </article>
+        <article class="card" data-tags="game AMR 抗菌薬 VSAMR">
+          <div class="card-body">
+            <h3 class="card-title">VSAMR</h3>
+            <p class="card-desc">耐性菌との戦いでAS/DSの視点を鍛える。</p>
+          </div>
+          <div class="card-foot">
+            <div class="card-meta">カテゴリ: Game</div>
+            <a
+              class="btn btn-primary"
+              href="https://html5.plicy.net/GamePlay/188389"
+              target="_blank"
+              rel="noopener noreferrer"
+              >開く</a
+            >
+          </div>
+        </article>
+        <article class="card" data-tags="game 抗菌薬 適正使用 AS">
+          <div class="card-body">
+            <h3 class="card-title">抗菌薬ゲーム</h3>
+            <p class="card-desc">症例ベースで抗菌薬選択を鍛える。</p>
+          </div>
+          <div class="card-foot">
+            <div class="card-meta">カテゴリ: Game</div>
+            <a
+              class="btn btn-primary"
+              href="https://html5.plicy.net/GamePlay/188396"
+              target="_blank"
+              rel="noopener noreferrer"
+              >開く</a
+            >
+          </div>
+        </article>
+        <article class="card" data-tags="game PCR バーチャル 実験">
+          <div class="card-body">
+            <h3 class="card-title">Virtual PCR</h3>
+            <p class="card-desc">PCRの流れを仮想体験。</p>
+          </div>
+          <div class="card-foot">
+            <div class="card-meta">カテゴリ: Game</div>
+            <a
+              class="btn btn-primary"
+              href="https://html5.plicy.net/GamePlay/188392"
+              target="_blank"
+              rel="noopener noreferrer"
+              >開く</a
+            >
+          </div>
+        </article>
+        <article class="card" data-tags="game バイキンズ 対戦">
+          <div class="card-body">
+            <h3 class="card-title">バイキンズバトル</h3>
+            <p class="card-desc">バイキンズのバトルで学ぶ。</p>
+          </div>
+          <div class="card-foot">
+            <div class="card-meta">カテゴリ: Game</div>
+            <a
+              class="btn btn-primary"
+              href="https://html5.plicy.net/GamePlay/188681"
+              target="_blank"
+              rel="noopener noreferrer"
+              >開く</a
+            >
+          </div>
+        </article>
+        <article class="card" data-tags="game バイキンズ 収集">
+          <div class="card-body">
+            <h3 class="card-title">バイキンズゲット</h3>
+            <p class="card-desc">収集しながら菌の特徴を覚える。</p>
+          </div>
+          <div class="card-foot">
+            <div class="card-meta">カテゴリ: Game</div>
+            <a
+              class="btn btn-primary"
+              href="https://html5.plicy.net/GamePlay/200325"
+              target="_blank"
+              rel="noopener noreferrer"
+              >開く</a
+            >
+          </div>
+        </article>
+        <article class="card" data-tags="game バイキンズ ポーカー">
+          <div class="card-body">
+            <h3 class="card-title">バイキンズポーカー</h3>
+            <p class="card-desc">役を作りながら微生物の個性を整理。</p>
+          </div>
+          <div class="card-foot">
+            <div class="card-meta">カテゴリ: Game</div>
+            <a
+              class="btn btn-primary"
+              href="https://html5.plicy.net/GamePlay/202257"
+              target="_blank"
+              rel="noopener noreferrer"
+              >開く</a
+            >
+          </div>
+        </article>
+        <article class="card" data-tags="game バイキンズ スロット">
+          <div class="card-body">
+            <h3 class="card-title">バイキンズスロット</h3>
+            <p class="card-desc">ライトに学ぶ AMR/疾患のキーワード。</p>
+          </div>
+          <div class="card-foot">
+            <div class="card-meta">カテゴリ: Game</div>
+            <a
+              class="btn btn-primary"
+              href="https://html5.plicy.net/GamePlay/194921"
+              target="_blank"
+              rel="noopener noreferrer"
+              >開く</a
+            >
+          </div>
+        </article>
+        <article class="card" data-tags="study JavaScript 学習 プログラミング">
+          <div class="card-body">
+            <h3 class="card-title">JavaScript 学習サイト</h3>
+            <p class="card-desc">学習用リンク集とサンプル集。</p>
+          </div>
+          <div class="card-foot">
+            <div class="card-meta">カテゴリ: Study</div>
+            <a
+              class="btn btn-primary"
+              href="https://somekata.github.io/javascriptlearn/"
+              target="_blank"
+              rel="noopener noreferrer"
+              >開く</a
+            >
+          </div>
+        </article>
+      </section>
+
+      <!-- LINE公式アカウント -->
+      <h2 class="cat-title">LINE公式アカウント</h2>
+      <section class="cards" id="cards-line" aria-label="LINE公式アカウント">
+        <article class="card" data-tags="LINE 細菌学 教育 連絡">
+          <div class="card-body">
+            <h3 class="card-title">細菌学講座（LINE）</h3>
+            <p class="card-desc">講座の最新情報・連絡。</p>
+          </div>
+          <div class="card-foot">
+            <div class="card-meta">カテゴリ: LINE</div>
+            <a
+              class="btn btn-primary"
+              href="https://lin.ee/2KbLux8"
+              target="_blank"
+              rel="noopener noreferrer"
+              >開く</a
+            >
+          </div>
+        </article>
+        <article class="card" data-tags="LINE ILOHA 教育 連絡">
+          <div class="card-body">
+            <h3 class="card-title">ILOHA（LINE）</h3>
+            <p class="card-desc">ILOHAの更新・イベント案内。</p>
+          </div>
+          <div class="card-foot">
+            <div class="card-meta">カテゴリ: LINE</div>
+            <a
+              class="btn btn-primary"
+              href="https://lin.ee/T0gHXxO"
+              target="_blank"
+              rel="noopener noreferrer"
+              >開く</a
+            >
+          </div>
+        </article>
+        <article class="card" data-tags="LINE Fil-GAP AS 研修会 連絡">
+          <div class="card-body">
+            <h3 class="card-title">Fil-GAP（LINE）</h3>
+            <p class="card-desc">抗菌薬適正使用研修会の通知。</p>
+          </div>
+          <div class="card-foot">
+            <div class="card-meta">カテゴリ: LINE</div>
+            <a
+              class="btn btn-primary"
+              href="https://lin.ee/3RzYMzU"
+              target="_blank"
+              rel="noopener noreferrer"
+              >開く</a
+            >
+          </div>
+        </article>
+      </section>
+
+      <!-- 便利ツール -->
+      <h2 class="cat-title">便利ツール</h2>
+      <section class="cards" id="cards-tools" aria-label="便利ツール">
+        <article class="card" data-tags="tool 学会 審査 評価">
+          <div class="card-body">
+            <h3 class="card-title">学会審査アシスタント</h3>
+            <p class="card-desc">査読・事前審査の効率化支援。</p>
+          </div>
+          <div class="card-foot">
+            <div class="card-meta">カテゴリ: Tool</div>
+            <a
+              class="btn btn-primary"
+              href="https://somekata.github.io/assessAssistJs/"
+              target="_blank"
+              rel="noopener noreferrer"
+              >開く</a
+            >
+          </div>
+        </article>
+        <article class="card" data-tags="tool 採点 集計 可視化">
+          <div class="card-body">
+            <h3 class="card-title">採点結果 集計ツール</h3>
+            <p class="card-desc">提出結果の集計と可視化。</p>
+          </div>
+          <div class="card-foot">
+            <div class="card-meta">カテゴリ: Tool</div>
+            <a
+              class="btn btn-primary"
+              href="https://somekata.github.io/assessManage/"
+              target="_blank"
+              rel="noopener noreferrer"
+              >開く</a
+            >
+          </div>
+        </article>
+        <article class="card" data-tags="tool 採点 閲覧 ビューア">
+          <div class="card-body">
+            <h3 class="card-title">採点結果 閲覧ツール</h3>
+            <p class="card-desc">集計済みデータの閲覧用ビュー。</p>
+          </div>
+          <div class="card-foot">
+            <div class="card-meta">カテゴリ: Tool</div>
+            <a
+              class="btn btn-primary"
+              href="https://somekata.github.io/assessManage/view.html"
+              target="_blank"
+              rel="noopener noreferrer"
+              >開く</a
+            >
+          </div>
+        </article>
+        <article class="card" data-tags="tool exam CSV Word 教育">
+          <div class="card-body">
+            <h3 class="card-title">試験問題管理ツール</h3>
+            <p class="card-desc">問題の管理・検索・Word出力まで。</p>
+          </div>
+          <div class="card-foot">
+            <div class="card-meta">カテゴリ: Tool</div>
+            <a
+              class="btn btn-primary"
+              href="https://somekata.github.io/exam_managetool/"
+              target="_blank"
+              rel="noopener noreferrer"
+              >開く</a
+            >
+          </div>
+        </article>
+        <article class="card" data-tags="tool exam ピックアップ 教育">
+          <div class="card-body">
+            <h3 class="card-title">試験問題ピックアップツール</h3>
+            <p class="card-desc">抽出・並べ替え・配点設定。</p>
+          </div>
+          <div class="card-foot">
+            <div class="card-meta">カテゴリ: Tool</div>
+            <a
+              class="btn btn-primary"
+              href="https://somekata.github.io/exam_pickup/"
+              target="_blank"
+              rel="noopener noreferrer"
+              >開く</a
+            >
+          </div>
+        </article>
+      </section>
+
+      <!-- 学習関連 -->
+      <h2 class="cat-title">学習関連</h2>
+      <section class="cards" id="cards-study" aria-label="学習関連">
+        <article class="card" data-tags="study 細菌学 感染症 教材">
+          <div class="card-body">
+            <h3 class="card-title">細菌学・感染症学習</h3>
+            <p class="card-desc">微生物・臨床・検査・治療の入門教材。</p>
+          </div>
+          <div class="card-foot">
+            <div class="card-meta">カテゴリ: Study</div>
+            <a
+              class="btn btn-primary"
+              href="https://somekata.github.io/bacteriologytext/"
+              target="_blank"
+              rel="noopener noreferrer"
+              >開く</a
+            >
+          </div>
+        </article>
+        <article class="card" data-tags="study 実験 手順 ガイド">
+          <div class="card-body">
+            <h3 class="card-title">細菌学実験ガイド</h3>
+            <p class="card-desc">基本操作から安全管理まで。</p>
+          </div>
+          <div class="card-foot">
+            <div class="card-meta">カテゴリ: Study</div>
+            <a
+              class="btn btn-primary"
+              href="https://somekata.github.io/bact-guide/"
+              target="_blank"
+              rel="noopener noreferrer"
+              >開く</a
+            >
+          </div>
+        </article>
+        <article class="card" data-tags="study JavaScript 実習 Tips">
+          <div class="card-body">
+            <h3 class="card-title">JavaScript（実習用）</h3>
+            <p class="card-desc">bact-guide 内 実習向け JS 資料。</p>
+          </div>
+          <div class="card-foot">
+            <div class="card-meta">カテゴリ: Study</div>
+            <a
+              class="btn btn-primary"
+              href="https://somekata.github.io/bact-guide/"
+              target="_blank"
+              rel="noopener noreferrer"
+              >開く</a
+            >
+          </div>
+        </article>
+        <article class="card" data-tags="study JavaScript 学習 プログラミング">
+          <div class="card-body">
+            <h3 class="card-title">JavaScript 学習サイト</h3>
+            <p class="card-desc">学習用リンク集とサンプル集。</p>
+          </div>
+          <div class="card-foot">
+            <div class="card-meta">カテゴリ: Study</div>
+            <a
+              class="btn btn-primary"
+              href="https://somekata.github.io/javascriptlearn/"
+              target="_blank"
+              rel="noopener noreferrer"
+              >開く</a
+            >
+          </div>
+        </article>
+        <article class="card" data-tags="study プログラミング リンク集 学習">
+          <div class="card-body">
+            <h3 class="card-title">プログラミングを学ぶためのリンク</h3>
+            <p class="card-desc">基礎から応用までの良質リンク集。</p>
+          </div>
+          <div class="card-foot">
+            <div class="card-meta">カテゴリ: Study</div>
+            <a
+              class="btn btn-primary"
+              href="https://somekata.github.io/links/"
+              target="_blank"
+              rel="noopener noreferrer"
+              >開く</a
+            >
+          </div>
+        </article>
+        <article class="card" data-tags="study バイキンズ キャラクター 紹介">
+          <div class="card-body">
+            <h3 class="card-title">バイキンズキャラクターの紹介</h3>
+            <p class="card-desc">キャラクターで学ぶ微生物の個性。</p>
+          </div>
+          <div class="card-foot">
+            <div class="card-meta">カテゴリ: Study</div>
+            <a
+              class="btn btn-primary"
+              href="https://somekata.github.io/baikinscharacters/"
+              target="_blank"
+              rel="noopener noreferrer"
+              >開く</a
+            >
+          </div>
+        </article>
+        <article class="card" data-tags="study クイズ 感染症 学習">
+          <div class="card-body">
+            <h3 class="card-title">感染症クイズ</h3>
+            <p class="card-desc">知識をゲーム感覚でチェック。</p>
+          </div>
+          <div class="card-foot">
+            <div class="card-meta">カテゴリ: Study</div>
+            <a
+              class="btn btn-primary"
+              href="https://somekata.github.io/quiz/"
+              target="_blank"
+              rel="noopener noreferrer"
+              >開く</a
+            >
+          </div>
+        </article>
+        <article class="card" data-tags="study 用語集 感染症 ILOHA">
+          <div class="card-body">
+            <h3 class="card-title">感染症を知るために必要な医学用語</h3>
+            <p class="card-desc">ILOHA用語集（Terminology）。</p>
+          </div>
+          <div class="card-foot">
+            <div class="card-meta">カテゴリ: Study</div>
+            <a
+              class="btn btn-primary"
+              href="https://www.omu.ac.jp/med/iloha/terminology/Terminology.html"
+              target="_blank"
+              rel="noopener noreferrer"
+              >開く</a
+            >
+          </div>
+        </article>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <small>© 2025 bactPlatform</small>
+    </footer>
+
+    <script src="js/script.js"></script>
+  </body>
+</html>

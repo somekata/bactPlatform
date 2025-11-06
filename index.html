@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="ja" data-page="landing">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>bactPlatform | Gateway</title>
+    <meta
+      name="description"
+      content="bactPlatform: 細菌学コンテンツの玄関サイト"
+    />
+    <link rel="preload" href="css/style.css" as="style" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="preload" href="js/script.js" as="script" />
+  </head>
+  <body class="theme-dark">
+    <!-- 背景エフェクト（花火） -->
+    <canvas id="fx" aria-hidden="true"></canvas>
+
+    <main class="hero" role="main" aria-label="bactPlatform landing">
+      <!-- マウスに反応する発光オーブ -->
+      <div class="bg-orb orb-1" aria-hidden="true"></div>
+      <div class="bg-orb orb-2" aria-hidden="true"></div>
+
+      <div class="hero-inner">
+        <h1 class="logo">bactPlatform</h1>
+        <p class="tagline">A Gateway to Microbial Intelligence</p>
+        <button
+          class="btn btn-enter"
+          id="enterBtn"
+          aria-label="Enter bactPlatform"
+        >
+          ENTER
+        </button>
+        <p class="hint">Enter キーでも進めます</p>
+      </div>
+
+      <footer class="site-footer">
+        <small>© 2025 bactPlatform</small>
+      </footer>
+    </main>
+
+    <noscript>
+      <div
+        style="
+          position: fixed;
+          inset: 0;
+          background: #111;
+          color: #fff;
+          display: grid;
+          place-items: center;
+        "
+      >
+        JavaScriptが無効です。bactPlatformを開くには有効化してください。
+      </div>
+    </noscript>
+
+    <script src="js/script.js"></script>
+  </body>
+</html>
