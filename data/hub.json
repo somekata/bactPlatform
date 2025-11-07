@@ -1,0 +1,230 @@
+[
+  {
+    "category": "ホームページ",
+    "theme": "violet",
+    "items": [
+      {
+        "title": "細菌学教室",
+        "desc": "大阪公立大学医学部 細菌学教室公式サイト。",
+        "url": "https://www.omu.ac.jp/med/bacteriology/",
+        "tags": ["home", "department", "教室", "細菌学"]
+      },
+      {
+        "title": "ILOHA",
+        "desc": "Infection Lecture at OMU Hospital & Affiliates。事前学習・用語集ほか。",
+        "url": "https://www.omu.ac.jp/med/iloha/",
+        "tags": ["home", "ILOHA", "事前学習", "感染症", "教育"]
+      },
+      {
+        "title": "Fil-GAP",
+        "desc": "抗菌薬適正使用研修会（Fil-GAP）公式ページ。",
+        "url": "http://filgap.kenkyuukai.jp/special/index.asp?id=41772",
+        "tags": ["home", "Fil-GAP", "抗菌薬", "研修会", "AS"]
+      },
+      {
+        "title": "染方史郎の細菌楽教室",
+        "desc": "試験的に作成したページなのでコンテンツはあまり充実していませんが、お立ち寄りください。",
+        "url": "https://somekata.github.io/somekata/",
+        "tags": ["home", "染方史郎", "感染症", "教育"]
+      }
+    ]
+  },
+  {
+    "category": "ゲーム関連",
+    "theme": "orange",
+    "items": [
+      {
+        "title": "中耳炎ゲーム",
+        "desc": "中耳炎ケースで学ぶ意思決定ゲーム。",
+        "url": "https://html5.plicy.net/GamePlay/188400",
+        "tags": ["game", "中耳炎", "バイキンズ", "教育"]
+      },
+      {
+        "title": "菌血症ゲーム",
+        "desc": "菌血症の診断・治療思考を体験。",
+        "url": "https://html5.plicy.net/GamePlay/188399",
+        "tags": ["game", "菌血症", "バイキンズ", "教育"]
+      },
+      {
+        "title": "バイキンズウォー",
+        "desc": "バイキンズの世界で戦略的に学ぶ。",
+        "url": "https://html5.plicy.net/GamePlay/155481",
+        "tags": ["game", "バイキンズ", "戦略", "AMR"]
+      },
+      {
+        "title": "VSAMR",
+        "desc": "耐性菌との戦いでAS/DSの視点を鍛える。",
+        "url": "https://html5.plicy.net/GamePlay/188389",
+        "tags": ["game", "AMR", "抗菌薬", "VSAMR"]
+      },
+      {
+        "title": "抗菌薬ゲーム",
+        "desc": "症例ベースで抗菌薬選択を鍛える。",
+        "url": "https://html5.plicy.net/GamePlay/188396",
+        "tags": ["game", "抗菌薬", "適正使用", "AS"]
+      },
+      {
+        "title": "Virtual PCR",
+        "desc": "PCRの流れを仮想体験。",
+        "url": "https://html5.plicy.net/GamePlay/188392",
+        "tags": ["game", "PCR", "バーチャル", "実験"]
+      },
+      {
+        "title": "バイキンズバトル",
+        "desc": "バイキンズのバトルで学ぶ。",
+        "url": "https://html5.plicy.net/GamePlay/188681",
+        "tags": ["game", "バイキンズ", "対戦"]
+      },
+      {
+        "title": "バイキンズゲット",
+        "desc": "収集しながら菌の特徴を覚える。",
+        "url": "https://html5.plicy.net/GamePlay/200325",
+        "tags": ["game", "バイキンズ", "収集"]
+      },
+      {
+        "title": "バイキンズポーカー",
+        "desc": "役を作りながら微生物の個性を整理。",
+        "url": "https://html5.plicy.net/GamePlay/202257",
+        "tags": ["game", "バイキンズ", "ポーカー"]
+      },
+      {
+        "title": "バイキンズスロット",
+        "desc": "ライトに学ぶ AMR/疾患のキーワード。",
+        "url": "https://html5.plicy.net/GamePlay/194921",
+        "tags": ["game", "バイキンズ", "スロット"]
+      },
+      {
+        "title": "Plicy Games",
+        "desc": "Plicyに「スニップ」として投稿しているゲームの一覧（入口）です。",
+        "url": "https://plicy.net/User/81386",
+        "tags": ["game", "Plicy"]
+      }
+    ]
+  },
+  {
+    "category": "LINE公式アカウント",
+    "theme": "green",
+    "items": [
+      {
+        "title": "細菌学講座（LINE）",
+        "desc": "講座の最新情報・連絡。",
+        "url": "https://lin.ee/2KbLux8",
+        "tags": ["LINE", "細菌学", "教育", "連絡"]
+      },
+      {
+        "title": "ILOHA（LINE）",
+        "desc": "ILOHAの更新・イベント案内。",
+        "url": "https://lin.ee/T0gHXxO",
+        "tags": ["LINE", "ILOHA", "教育", "連絡"]
+      },
+      {
+        "title": "Fil-GAP（LINE）",
+        "desc": "抗菌薬適正使用研修会の通知。",
+        "url": "https://lin.ee/3RzYMzU",
+        "tags": ["LINE", "Fil-GAP", "AS", "研修会", "連絡"]
+      }
+    ]
+  },
+  {
+    "category": "便利ツール",
+    "theme": "blue",
+    "items": [
+      {
+        "title": "学会審査アシスタント",
+        "desc": "査読・事前審査の効率化支援。",
+        "url": "https://somekata.github.io/assessAssistJs/",
+        "tags": ["tool", "学会", "審査", "評価"]
+      },
+      {
+        "title": "採点結果 集計ツール",
+        "desc": "提出結果の集計と可視化。",
+        "url": "https://somekata.github.io/assessManage/",
+        "tags": ["tool", "採点", "集計", "可視化"]
+      },
+      {
+        "title": "採点結果 閲覧ツール",
+        "desc": "集計済みデータの閲覧用ビュー。",
+        "url": "https://somekata.github.io/assessManage/view.html",
+        "tags": ["tool", "採点", "閲覧", "ビューア"]
+      },
+      {
+        "title": "試験問題管理ツール",
+        "desc": "問題の管理・検索・Word出力まで。",
+        "url": "https://somekata.github.io/exam_managetool/",
+        "tags": ["tool", "exam", "CSV", "Word", "教育"]
+      },
+      {
+        "title": "試験問題ピックアップツール",
+        "desc": "抽出・並べ替え・配点設定。",
+        "url": "https://somekata.github.io/exam_pickup/",
+        "tags": ["tool", "exam", "ピックアップ", "教育"]
+      }
+    ]
+  },
+  {
+    "category": "学習関連",
+    "theme": "pink",
+    "items": [
+      {
+        "title": "細菌学・感染症学習",
+        "desc": "微生物・臨床・検査・治療の入門教材。",
+        "url": "https://somekata.github.io/bacteriologytext/",
+        "tags": ["study", "細菌学", "感染症", "教材"]
+      },
+      {
+        "title": "細菌学実験ガイド",
+        "desc": "基本操作から安全管理まで。",
+        "url": "https://somekata.github.io/bact-guide/",
+        "tags": ["study", "実験", "手順", "ガイド"]
+      },
+      {
+        "title": "JavaScript（実習用）",
+        "desc": "bact-guide 内 実習向け JS 資料。",
+        "url": "https://somekata.github.io/bact-guide/",
+        "tags": ["study", "JavaScript", "実習", "Tips"]
+      },
+      {
+        "title": "JavaScript 学習サイト",
+        "desc": "学習用リンク集とサンプル集。",
+        "url": "https://somekata.github.io/javascriptlearn/",
+        "tags": ["study", "JavaScript", "学習", "プログラミング"]
+      },
+      {
+        "title": "プログラミングを学ぶためのリンク",
+        "desc": "基礎から応用までの良質リンク集。",
+        "url": "https://somekata.github.io/links/",
+        "tags": ["study", "プログラミング", "リンク集", "学習"]
+      },
+      {
+        "title": "バイキンズキャラクターの紹介",
+        "desc": "キャラクターで学ぶ微生物の個性。",
+        "url": "https://somekata.github.io/baikinscharacters/",
+        "tags": ["study", "バイキンズ", "キャラクター", "紹介"]
+      },
+      {
+        "title": "感染症クイズ",
+        "desc": "知識をゲーム感覚でチェック。",
+        "url": "https://somekata.github.io/quiz/",
+        "tags": ["study", "クイズ", "感染症", "学習"]
+      },
+      {
+        "title": "感染症を知るために必要な医学用語",
+        "desc": "ILOHA用語集（Terminology）。",
+        "url": "https://www.omu.ac.jp/med/iloha/terminology/Terminology.html",
+        "tags": ["study", "用語集", "感染症", "ILOHA"]
+      },
+      {
+        "title": "GitHubの使い方",
+        "desc": "GitHubのログインからPageの公開まで。",
+        "url": "https://somekata.github.io/howtousepages/",
+        "tags": ["study", "Github"]
+      },
+      {
+        "title": "VS Codeの使い方",
+        "desc": "VS Codeのインストールから応用まで。",
+        "url": "https://somekata.github.io/vscode/",
+        "tags": ["study", "JavaScript", "学習", "プログラミング"]
+      }
+    ]
+  }
+]

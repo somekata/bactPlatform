@@ -2,29 +2,19 @@
 
 /* 1) ヘッダのブランドを index のロゴと同じ虹色テキストに */
 .brand-link.rainbow{
-  background: linear-gradient(
-    90deg,
-    #62ecff 0%,
-    #7aa4ff 20%,
-    #c47aff 40%,
-    #ff79c4 60%,
-    #ffc96b 80%,
-    #62ecff 100%
-  );
+  background: linear-gradient(90deg,#62ecff 0%,#7aa4ff 20%,#c47aff 40%,#ff79c4 60%,#ffc96b 80%,#62ecff 100%);
   -webkit-background-clip: text;
   background-clip: text;
   color: transparent;
   text-decoration: none;
   font-weight: 800;
   letter-spacing: .02em;
-  text-shadow:
-    0 0 12px rgba(130,200,255,.18),
-    0 0 22px rgba(130,200,255,.12);
+  text-shadow: 0 0 12px rgba(130,200,255,.18), 0 0 22px rgba(130,200,255,.12);
   animation: hubHue 14s linear infinite;
 }
 @keyframes hubHue{ from{ filter:hue-rotate(0deg);} to{ filter:hue-rotate(360deg);} }
 
-/* 2) Hub レイアウトの余白と微光 */
+/* 2) Hub レイアウト */
 .hub-main{
   padding: 30px clamp(18px, 4.5vw, 40px) 64px;
   background:
@@ -45,7 +35,7 @@
 /* 3) “黒ガラス × 虹色エッジ × 艶（グロス）” パネル */
 .cards{ gap: 20px; }
 
-/* 共通カード。--tint を親セクションごとに変える */
+/* 共通カード。--tint を .theme-* で与える */
 .card{
   position: relative;
   display: flex;
@@ -63,7 +53,7 @@
       color-mix(in oklab, #0a0f1a 35%, var(--bg) 65%) 100%
     ) padding-box,
 
-  /* 虹色の外周エッジ（border-image 代わりに layered background） */
+  /* 虹色の外周エッジ */
     conic-gradient(from 200deg,
       rgba(98,236,255,.55),
       rgba(122,164,255,.55),
@@ -73,24 +63,21 @@
       rgba(98,236,255,.55)
     ) border-box;
 
-  /* ガラス質感 */
   backdrop-filter: blur(8px) saturate(110%);
   -webkit-backdrop-filter: blur(8px) saturate(110%);
   box-shadow:
     0 6px 18px rgba(0,0,0,.35),
     inset 0 1px 0 rgba(255,255,255,.06);
-
-  /* 少し明るく（全体とトーンを合わせる） */
   transition: transform .18s ease, box-shadow .25s ease, border-color .2s ease, background .3s ease;
 }
 
-/* 艶ハイライト（上縁にうっすら） */
+/* 艶ハイライト（上縁） */
 .card::after{
   content:"";
   position:absolute; inset:0;
   border-radius: 18px;
   background:
-    linear-gradient( to bottom,
+    linear-gradient(to bottom,
       rgba(255,255,255,.14) 0%,
       rgba(255,255,255,.04) 18%,
       rgba(255,255,255,0) 40%
@@ -99,21 +86,21 @@
   pointer-events:none;
 }
 
-/* カテゴリ別の“透明色味”を奥に敷く（--tint を使う） */
+/* カテゴリ別の“透明色味”を奥に敷く（--tint 使用） */
 .card::before{
   content:"";
   position:absolute; inset:0;
   border-radius: 18px;
   background:
-    radial-gradient( 600px 300px at 20% 10%, color-mix(in oklab, var(--tint) 50%, transparent) 0%, transparent 70% ),
-    radial-gradient( 600px 300px at 80% 90%, color-mix(in oklab, var(--tint) 35%, transparent) 0%, transparent 70% );
+    radial-gradient(600px 300px at 20% 10%, color-mix(in oklab, var(--tint) 50%, transparent) 0%, transparent 70%),
+    radial-gradient(600px 300px at 80% 90%, color-mix(in oklab, var(--tint) 35%, transparent) 0%, transparent 70%);
   opacity:.55;
   filter: blur(20px);
   pointer-events:none;
   z-index: 0;
 }
 
-/* hover でほんのり立ち上げ */
+/* hover エフェクト */
 .card:hover{
   transform: translateY(-2px);
   box-shadow:
@@ -131,7 +118,7 @@
 .card-desc{ margin: 0; color: var(--muted); }
 .card-meta{ font-size: 12px; color: var(--muted); }
 
-/* ボタンは右寄せ・ガラスルック */
+/* ボタン：ガラス寄り */
 .btn-primary{
   margin-left: auto;
   padding: 10px 16px;
@@ -140,13 +127,18 @@
   background: rgba(255,255,255,.06);
 }
 
-/* 4) セクションごとに “--tint” を設定して色味を変える */
-#cards-home { --tint: #62ecff; }    /* シアン */
-#cards-games{ --tint: #b486ff; }    /* パープル */
-#cards-line { --tint: #9ae6b4; }    /* ミント */
-#cards-tools{ --tint: #ffc96b; }    /* ゴールド */
-#cards-study{ --tint: #ff79c4; }    /* ピンク */
+/* 4) JSONの "theme" と連動する色マップ（--tint を与える） */
+.theme-red    { --tint: #ff6b6b; }
+.theme-orange { --tint: #ffb96b; }
+.theme-yellow { --tint: #ffe16b; }
+.theme-green  { --tint: #9ae6b4; }
+.theme-teal   { --tint: #7de3da; }
+.theme-blue   { --tint: #7aa4ff; }
+.theme-indigo { --tint: #8ea0ff; }
+.theme-violet { --tint: #c47aff; }
+.theme-pink   { --tint: #ff79c4; }
 
+/* 小画面調整 */
 @media (max-width: 480px){
   .hub-main{ padding-inline: 16px; }
   .card{ padding: 16px; border-radius: 16px; }
@@ -154,7 +146,7 @@
   .card-foot{ gap: 10px; }
 }
 
-/* 5) フッターは固定せず、下に呼吸を。 */
+/* 5) フッター */
 .site-footer{
   position: static;
   display:grid; place-items:center;
