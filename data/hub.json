@@ -178,12 +178,6 @@
         "tags": ["study", "実験", "手順", "ガイド"]
       },
       {
-        "title": "JavaScript（実習用）",
-        "desc": "bact-guide 内 実習向け JS 資料。",
-        "url": "https://somekata.github.io/bact-guide/",
-        "tags": ["study", "JavaScript", "実習", "Tips"]
-      },
-      {
         "title": "JavaScript 学習サイト",
         "desc": "学習用リンク集とサンプル集。",
         "url": "https://somekata.github.io/javascriptlearn/",
