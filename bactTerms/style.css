@@ -1,0 +1,239 @@
+/* =========================================================
+   SUBPAGE THEME for Hub
+   - 黒ガラス / 虹色エッジ / うっすらネオン
+   - index.html / script.js は変更不要
+   - Hubの style.css / hub.css と並んでも違和感が出ない配色
+========================================================= */
+
+/* ===== 基本（Hubの変数に寄せる） ===== */
+:root{
+  --bg: #05070c;
+  --bg-soft:#0b1120;
+  --fg: #e8eef7;
+  --muted:#9aa3b8;
+
+  /* 虹グラデのキー色：Hubに合わせた配列 */
+  --c1:#62ecff;
+  --c2:#7aa4ff;
+  --c3:#c47aff;
+  --c4:#ff79c4;
+  --c5:#ffc96b;
+
+  --radius: 16px;
+  --gap: 14px;
+  --stroke: 1px solid rgba(255,255,255,.10);
+  --shadow: 0 12px 34px rgba(0,0,0,.35);
+  --glass: linear-gradient(180deg, rgba(255,255,255,.08), rgba(255,255,255,.03));
+}
+
+*{ box-sizing:border-box; }
+html,body{
+  margin:0;
+  color:var(--fg);
+  background:
+    radial-gradient(1200px 800px at 20% -10%, rgba(98,236,255,.10), transparent 60%),
+    radial-gradient(1000px 800px at 90% 110%, rgba(180,134,255,.10), transparent 60%),
+    var(--bg);
+  font-family: ui-sans-serif, system-ui, -apple-system, "Segoe UI",
+               "Hiragino Kaku Gothic ProN", "Noto Sans JP", Meiryo, Roboto, sans-serif;
+  letter-spacing:.01em; line-height:1.65;
+}
+
+.container{ width:min(1100px, 92vw); margin: 22px auto; }
+
+/* ===== ヘッダ（Hubロゴの雰囲気に寄せる） ===== */
+header.container{
+  background: var(--glass);
+  border: var(--stroke);
+  backdrop-filter: blur(10px) saturate(110%);
+  -webkit-backdrop-filter: blur(10px) saturate(110%);
+  border-radius: calc(var(--radius) + 2px);
+  padding: 18px clamp(14px, 3vw, 22px);
+  box-shadow: var(--shadow);
+}
+
+h1{
+  margin:0 0 10px;
+  font-size: clamp(1.35rem, 1.1rem + 1.2vw, 1.9rem);
+  letter-spacing:.02em;
+  background: linear-gradient(90deg,var(--c1),var(--c2),var(--c3),var(--c4),var(--c5));
+  -webkit-background-clip:text;
+  background-clip:text;
+  color: transparent;
+  text-shadow:
+    0 0 14px rgba(255,255,255,.16),
+    0 0 28px rgba(130,200,255,.18);
+}
+
+/* ===== ツールバー ===== */
+.toolbar{
+  display:flex; flex-wrap:wrap; align-items:center; gap: var(--gap);
+}
+.toolbar input[type="search"]{
+  flex:1 1 360px;
+  padding:12px 14px;
+  border-radius: 12px;
+  border: var(--stroke);
+  background: #0f172a;
+  color:var(--fg);
+  outline:none;
+  transition: box-shadow .2s, border-color .2s, background .2s;
+}
+.toolbar input[type="search"]::placeholder{ color: var(--muted); }
+.toolbar input[type="search"]:focus{
+  border-color: transparent;
+  box-shadow: 0 0 0 2px rgba(122,164,255,.35), inset 0 0 0 1px rgba(255,255,255,.12);
+  background: linear-gradient(180deg, rgba(255,255,255,.05), rgba(255,255,255,.02));
+}
+
+.sort-group{
+  display:flex; align-items:center; gap:10px;
+  padding:8px 10px; border-radius: 12px;
+  border: var(--stroke);
+  background: var(--glass);
+  backdrop-filter: blur(8px);
+}
+.sort-group input{ accent-color: #7aa4ff; }
+.sort-group label{ display:flex; gap:6px; align-items:center; font-size:.95rem; }
+.inline{ margin-left: 6px; }
+
+/* アクションボタン */
+#reloadBtn, .filelabel{
+  cursor:pointer;
+  border: var(--stroke);
+  background: var(--glass);
+  backdrop-filter: blur(8px);
+  padding:10px 14px;
+  border-radius: 12px;
+  transition: transform .08s ease, box-shadow .2s ease, border-color .2s;
+  box-shadow: var(--shadow);
+  color:var(--fg);
+}
+#reloadBtn:hover, .filelabel:hover{
+  transform: translateY(-1px);
+  box-shadow: 0 12px 28px rgba(0,0,0,.28);
+}
+.filelabel input{ display:none; }
+
+/* ===== メタ行 ===== */
+.meta{ margin: 14px 0 10px; color: var(--muted); font-size: .92rem; }
+
+/* ===== 用語ボタン：黒ガラス＋虹色エッジ ===== */
+.grid{
+  display:grid;
+  grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+  gap: clamp(10px, 1.8vw, 16px);
+}
+.grid button{
+  position:relative;
+  text-align:left;
+  padding:14px 14px 12px;
+  border-radius: 18px;
+  border: 1px solid transparent;
+  background:
+    linear-gradient(180deg, rgba(15,23,42,.90), rgba(15,23,42,.82)) padding-box,
+    conic-gradient(from 180deg,
+      rgba(98,236,255,.50),
+      rgba(122,164,255,.50),
+      rgba(196,122,255,.50),
+      rgba(255,121,196,.50),
+      rgba(255,201,107,.50),
+      rgba(98,236,255,.50)
+    ) border-box;
+  color:var(--fg);
+  line-height:1.25;
+  cursor:pointer;
+  transition: transform .12s ease, box-shadow .25s ease, filter .2s;
+  box-shadow: 0 10px 22px rgba(0,0,0,.22);
+  outline: none;
+}
+.grid button strong{
+  display:block;
+  font-weight:800;
+  letter-spacing:.01em;
+  margin-bottom: 6px;
+}
+.small{ font-size:.88rem; color: var(--muted); display:block; }
+
+.grid button:hover{
+  transform: translateY(-2px);
+  box-shadow: 0 18px 36px rgba(0,0,0,.34);
+}
+.grid button:focus-visible{
+  box-shadow:
+    0 18px 36px rgba(0,0,0,.34),
+    0 0 0 3px rgba(122,164,255,.45);
+  filter: saturate(1.05);
+}
+
+/* ===== モーダル（Hubと同系のガラス） ===== */
+dialog{
+  border:none; border-radius: 18px; padding:0;
+  width:min(780px, 94vw);
+  background: var(--glass);
+  backdrop-filter: blur(12px) saturate(1.05);
+  -webkit-backdrop-filter: blur(12px) saturate(1.05);
+  border: var(--stroke);
+  color: var(--fg);
+  box-shadow: 0 40px 80px rgba(0,0,0,.45);
+  overflow:hidden;
+}
+dialog::backdrop{
+  background: radial-gradient(65% 80% at 50% 50%, rgba(5,7,12,.70), rgba(5,7,12,.86));
+}
+
+dialog article header{
+  display:flex; justify-content:space-between; align-items:center;
+  padding: 16px 18px; border-bottom: var(--stroke);
+  background:
+    linear-gradient(90deg,
+      rgba(98,236,255,.16),
+      rgba(122,164,255,.16) 50%,
+      rgba(196,122,255,.14));
+}
+#modalTitle{ margin:0; font-size: clamp(1.05rem, .9rem + .6vw, 1.35rem); }
+#modalClose{
+  border:none; background:transparent; color:var(--fg);
+  font-size:1.25rem; cursor:pointer; line-height:1;
+  padding:6px 10px; border-radius: 10px;
+}
+#modalClose:hover{ background: rgba(255,255,255,.08); }
+
+.modal-body{
+  padding: 18px;
+  line-height: 1.75;
+  max-height: min(60dvh, 540px);
+  overflow:auto;
+}
+dialog footer{
+  padding: 12px 18px; border-top: var(--stroke);
+  display:flex; justify-content:flex-end; gap:10px;
+}
+dialog footer button{
+  padding:10px 16px;
+  border-radius: 12px;
+  border: var(--stroke);
+  background: #0f172a;
+  color: var(--fg);
+  cursor: pointer;
+  transition: transform .08s ease, box-shadow .2s ease;
+}
+dialog footer button:hover{
+  transform: translateY(-1px);
+  box-shadow: 0 10px 24px rgba(0,0,0,.25);
+}
+
+/* モーダル内の定義リスト */
+dt{ font-weight:800; margin-top:8px; }
+dd{ margin: 6px 0 14px 0; color: var(--fg); }
+
+/* ===== アクセシビリティ配慮 ===== */
+@media (prefers-reduced-motion: reduce){
+  *{ transition:none !important; animation:none !important; }
+}
+
+/* ===== レスポンシブ微調整 ===== */
+@media (max-width: 520px){
+  .sort-group{ width:100%; justify-content:space-between; }
+  .grid{ grid-template-columns: repeat(auto-fill, minmax(150px, 1fr)); }
+}

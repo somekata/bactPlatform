@@ -218,6 +218,12 @@
         "desc": "VS Codeのインストールから応用まで。",
         "url": "https://somekata.github.io/vscode/",
         "tags": ["study", "JavaScript", "学習", "プログラミング"]
+      },
+      {
+        "title": "用語ブラウザ",
+        "desc": "csvを読み込んで用語の一覧を確認する。",
+        "url": "bactTerms/",
+        "tags": ["study", "terminology", "学習", "用語"]        
       }
     ]
   }

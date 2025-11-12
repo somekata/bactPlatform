@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>用語ブラウザ</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header class="container">
+      <h1>用語ブラウザ</h1>
+
+      <div class="toolbar">
+        <input
+          id="searchInput"
+          type="search"
+          placeholder="絞り込み（用語・読み・英語・説明 など）"
+        />
+        <div class="sort-group" role="group" aria-label="sort">
+          <label
+            ><input type="radio" name="sortMode" value="alpha" checked />
+            A–Z</label
+          >
+          <label
+            ><input type="radio" name="sortMode" value="gojuon" /> 五十音</label
+          >
+          <label class="inline">
+            <input type="checkbox" id="sortDesc" /> 降順
+          </label>
+        </div>
+
+        <button id="reloadBtn" title="CSV再読み込み">再読込</button>
+        <label class="filelabel">
+          CSVを選ぶ<input id="filePicker" type="file" accept=".csv" hidden />
+        </label>
+      </div>
+    </header>
+
+    <main class="container">
+      <div id="meta" class="meta"></div>
+      <div id="buttonsWrap" class="grid"></div>
+    </main>
+
+    <!-- モーダル -->
+    <dialog id="detailModal">
+      <article>
+        <header>
+          <h2 id="modalTitle">タイトル</h2>
+          <button id="modalClose" aria-label="閉じる">×</button>
+        </header>
+        <div id="modalBody" class="modal-body"></div>
+        <footer>
+          <button id="modalOk">OK</button>
+        </footer>
+      </article>
+    </dialog>
+
+    <script src="script.js"></script>
+  </body>
+</html>
