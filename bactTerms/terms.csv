@@ -1,4 +1,4 @@
-﻿term,category,definition,example or Note,reference
+﻿term,category,definition,example or note,reference
 Periodic Table,Atomic Structure,"An arrangement of elements in order of increasing atomic number, showing periodic recurrence of chemical properties.","Used to identify atomic weights and valence; e.g., Na, K, Ca are essential cations for cells.",https://artsexperiments.withgoogle.com/periodic-table/?exp=true&lang=ja
 Atom,Atomic Structure,The smallest unit of matter retaining the properties of an element.,"Composed of protons, neutrons, and electrons.",
 Molecule,Chemical Bond,A group of two or more atoms bonded together by covalent or ionic bonds.,"H₂O, O₂, CO₂ are biologically important molecules.",
@@ -45,8 +45,15 @@ Precipitation,Reaction Type,Formation of an insoluble solid in a chemical reacti
 Solubility Product (Ksp),Equilibrium,Equilibrium constant for a sparingly soluble ionic compound.,Determines precipitation thresholds in media.,
 Equilibrium Constant (K),Equilibrium,Ratio of product to reactant concentrations at equilibrium.,Used to describe reversible biochemical reactions.,
 Le Chatelier’s Principle,Equilibrium,A system at equilibrium shifts to counteract imposed changes.,Basis for pH and temperature effects on reactions.,
-Term,Category,Definition,Example or Note,
 CFU,Abbreviation,Colony Forming Unit — a measure of viable bacterial or fungal cells that can form colonies on solid media.,"Used to estimate bacterial concentration, e.g., 1×10⁶ CFU/mL.",
 Agar,Laboratory Materials,"A gelatinous substance derived from red algae, used as a solidifying agent for culture media.",Agar plates and slants provide solid surfaces for bacterial colony growth.,
 Medium,Laboratory Materials,A nutrient mixture that supports the growth of microorganisms in laboratory culture.,"Examples: nutrient agar, blood agar, MacConkey agar.",
 Broth,Laboratory Materials,A liquid culture medium that supports microbial growth without a solidifying agent.,"Used for bacterial culture in test tubes or flasks, such as LB broth.",
+YPD,Abbreviation,Yeast Potato Dextrose,,
+PDA,Abbreviation,Potata Dextrose Agar,,
+YNB,Abbreviation,Yeast Nitrogen Base,,
+MH-II,Abbreviation,Muller-Hinton II,cation adjusted MH,
+Unit,,,"E (exa): 10^18, P (peta): 10^15, T (tera): 10^12, G (giga): 10^9, M (mega): 10^6, k (kilo): 10^3, h (hecto): 10^2, da (deca): 10^1, ― (unit): 10^0, d (deci): 10^-1, c (centi): 10^-2, m (milli): 10^-3, µ (micro): 10^-6, n (nano): 10^-9, p (pico): 10^-12, f (femto): 10^-15",
+PBS,Abbreviation,Phosphate Buffered Saline,"A buffer solution (pH ~ 7.4) commonly used in biological research. It is isotonic and non-toxic to most cells, making it ideal for substance dilution and cell container rinsing. It is a water-based salt solution typically containing sodium chloride, potassium chloride, potassium dihydrogen phosphate, and disodium hydrogen phosphate.",
+NS,Abbreviation, Normal Saline (0.9% NaCl solution), "A sterile, isotonic solution of 0.90% w/v sodium chloride (salt) in water. It is widely used in medicine as an intravenous (IV) solution for hydration and to treat conditions like dehydration or hypovolemia. It is also referred to as physiological saline.""",
+TBS,Abbreviation, Tris Buffered Saline,"A common pH-stabilizing biological buffer due to its low toxicity. It is prepared with Tris and sodium chloride and has a buffering capacity in the 7–9.2 pH range. It is often used in immunoassays and immunostaining procedures for washing, blotting, and diluting.",

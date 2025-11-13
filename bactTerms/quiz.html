@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>用語クイズ</title>
+    <link rel="stylesheet" href="quiz.css" />
+  </head>
+  <body>
+    <header class="container">
+      <h1>用語クイズ</h1>
+      <p class="lead">
+        CSV をもとに、<strong>用語 → 説明</strong>を答えるクイズです。<br />
+        問題数とカテゴリを選んで「クイズ開始」を押してください。
+      </p>
+
+      <div class="controls">
+        <!-- CSVファイル選択 -->
+        <div class="control-group">
+          <label for="csvFileInput">CSVファイル</label>
+          <input id="csvFileInput" type="file" accept=".csv" />
+          <small id="csvFileName" class="hint"
+            >現在: terms.csv（デフォルト）</small
+          >
+        </div>
+
+        <div class="control-group">
+          <label for="categorySelect">カテゴリ</label>
+          <select id="categorySelect">
+            <option value="">（すべて）</option>
+          </select>
+        </div>
+
+        <div class="control-group">
+          <label for="questionCount">問題数</label>
+          <input id="questionCount" type="number" min="1" max="100" value="5" />
+        </div>
+
+        <div class="control-group buttons">
+          <button id="startQuizBtn">クイズ開始</button>
+        </div>
+      </div>
+    </header>
+
+    <main class="container">
+      <section class="panel">
+        <h2>データの概要</h2>
+        <p id="summaryText">terms.csv を読み込んでいます…</p>
+        <ul id="summaryList"></ul>
+      </section>
+      <!-- ▼ ここから追加：参照CSVダウンロードリスト ▼ -->
+      <section class="ref-csv">
+        <h2>参照CSVダウンロード</h2>
+        <p class="ref-csv-note">
+          クイズで利用できるテンプレートおよびサンプルCSVです。必要に応じて編集し、外部CSVとして読み込ませることもできます。
+        </p>
+        <ul class="ref-csv-list">
+          <li>
+            <a href="csv_table/template_jn.csv">
+              日本語テンプレート（用語, 主区分, 副区分, 説明）
+            </a>
+          </li>
+          <li>
+            <a href="csv_table/template_en.csv">
+              英語テンプレート（term, category, definition, example or note,
+              reference）
+            </a>
+          </li>
+          <li>
+            <a href="csv_table/Terminology_table_kakomi.csv">
+              Terminology_table_kakomi.csv
+            </a>
+          </li>
+          <!-- これ以降、増やしたくなったら li をコピペ -->
+          <!--
+          <li>
+            <a href="csv_table/another_terms.csv">
+              another_terms.csv
+            </a>
+          </li>
+          -->
+        </ul>
+      </section>
+      <!-- ▲ ここまで追加 ▲ -->
+    </main>
+
+    <!-- クイズ用モーダル -->
+    <dialog id="quizModal">
+      <article class="modal-card">
+        <header>
+          <h2 id="quizQuestionTitle">問題</h2>
+          <button id="quizCloseBtn" class="icon-button" aria-label="閉じる">
+            ×
+          </button>
+        </header>
+        <div class="modal-body">
+          <!-- ★ここを追加：タイマー表示 -->
+          <div class="timer-wrapper">
+            <div id="timerLabel" class="timer-label">残り 20.0 秒</div>
+            <div class="timer-bar">
+              <div id="timerFill" class="timer-fill"></div>
+            </div>
+          </div>
+
+          <p id="quizQuestionText" class="question-text"></p>
+          <p id="quizCategoryText" class="question-category"></p>
+          <div id="quizChoices" class="choices"></div>
+          <p id="quizFeedback" class="feedback"></p>
+        </div>
+        <footer>
+          <button id="nextQuestionBtn">次へ</button>
+        </footer>
+      </article>
+    </dialog>
+
+    <!-- 結果表示モーダル -->
+    <dialog id="resultModal">
+      <article class="modal-card">
+        <header>
+          <h2>結果</h2>
+          <button id="resultCloseBtn" class="icon-button" aria-label="閉じる">
+            ×
+          </button>
+        </header>
+        <div class="modal-body">
+          <p id="resultSummary"></p>
+          <p id="resultMessage" class="result-message"></p>
+        </div>
+        <footer>
+          <button id="resultOkBtn">閉じる</button>
+        </footer>
+      </article>
+    </dialog>
+
+    <script src="quiz.js"></script>
+  </body>
+</html>
