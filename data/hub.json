@@ -224,6 +224,12 @@
         "desc": "csvを読み込んで用語の一覧を確認する。",
         "url": "bactTerms/",
         "tags": ["study", "terminology", "学習", "用語"]        
+      },
+      {
+        "title": "用語クイズ",
+        "desc": "csvを読み込んで用語の一覧を確認する。",
+        "url": "bactTerms/quiz.html",
+        "tags": ["study", "terminology", "学習", "用語"]        
       }
     ]
   }
