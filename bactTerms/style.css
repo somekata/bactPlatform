@@ -237,3 +237,77 @@ dd{ margin: 6px 0 14px 0; color: var(--fg); }
   .sort-group{ width:100%; justify-content:space-between; }
   .grid{ grid-template-columns: repeat(auto-fill, minmax(150px, 1fr)); }
 }
+/* ===== 参照CSVダウンロードリスト ===== */
+
+.ref-csv {
+  margin-top: 24px;
+  padding: 14px 16px 16px;
+  border-radius: 18px;
+  border: var(--stroke);
+  background: linear-gradient(
+    135deg,
+    rgba(15, 23, 42, 0.96),
+    rgba(15, 23, 42, 0.88)
+  );
+  box-shadow: 0 16px 40px rgba(15, 23, 42, 0.9);
+}
+
+.ref-csv h2 {
+  margin: 0 0 6px;
+  font-size: 1.05rem;
+}
+
+.ref-csv-note {
+  margin: 0 0 10px;
+  font-size: 0.85rem;
+  color: var(--muted);
+}
+
+.ref-csv-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.ref-csv-list li {
+  display: inline-flex;
+}
+
+.ref-csv-list a {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 6px 10px;
+  border-radius: 999px;
+  border: 1px solid rgba(148, 163, 184, 0.6);
+  background: rgba(15, 23, 42, 0.95);
+  font-size: 0.85rem;
+  color: var(--c1);
+  text-decoration: none;
+  transition: transform 0.06s ease, box-shadow 0.15s ease,
+    border-color 0.15s ease, background 0.15s ease;
+}
+
+.ref-csv-list a::before {
+  content: "⬇";
+  font-size: 0.8rem;
+}
+
+.ref-csv-list a:hover {
+  transform: translateY(-1px);
+  background: radial-gradient(
+    circle at 0% 0%,
+    rgba(56, 189, 248, 0.35),
+    rgba(15, 23, 42, 0.98)
+  );
+  border-color: rgba(56, 189, 248, 0.8);
+  box-shadow: 0 10px 26px rgba(15, 23, 42, 0.9);
+}
+
+.ref-csv-list a:active {
+  transform: translateY(0);
+  box-shadow: 0 4px 16px rgba(15, 23, 42, 0.9);
+}

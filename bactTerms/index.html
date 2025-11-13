@@ -39,8 +39,45 @@
     <main class="container">
       <div id="meta" class="meta"></div>
       <div id="buttonsWrap" class="grid"></div>
-    </main>
 
+      <!-- ▼ ここから追加：参照CSVダウンロードリスト ▼ -->
+      <section class="ref-csv">
+        <h2>参照CSVダウンロード</h2>
+        <p class="ref-csv-note">
+          クイズで利用できるテンプレートおよびサンプルCSVです。必要に応じて編集し、外部CSVとして読み込ませることもできます。
+        </p>
+        <ul class="ref-csv-list">
+          <li>
+            <a href="csv_table/template_jn.csv">
+              日本語テンプレート（用語, 主区分, 副区分, 説明）
+            </a>
+          </li>
+          <li>
+            <a href="csv_table/template_en.csv">
+              英語テンプレート（term, category, definition, example or note,
+              reference）
+            </a>
+          </li>
+          <li>
+            <a href="csv_table/Terminology_table_kakomi.csv">
+              Terminology_table_kakomi.csv
+            </a>
+          </li>
+          <li>
+            <a href="csv_table/genetics_en.csv"> genetics_en.csv </a>
+          </li>
+          <!-- これ以降、増やしたくなったら li をコピペ -->
+          <!--
+          <li>
+            <a href="csv_table/another_terms.csv">
+              another_terms.csv
+            </a>
+          </li>
+          -->
+        </ul>
+      </section>
+      <!-- ▲ ここまで追加 ▲ -->
+    </main>
     <!-- モーダル -->
     <dialog id="detailModal">
       <article>
