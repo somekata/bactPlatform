@@ -158,6 +158,12 @@
         "desc": "抽出・並べ替え・配点設定。",
         "url": "https://somekata.github.io/exam_pickup/",
         "tags": ["tool", "exam", "ピックアップ", "教育"]
+      },
+      {
+        "title":"データ管理ツール",
+        "desc": "抽出・並べ替え・配点設定。",
+        "url": "https://somekata.github.io/datamanagetool/",
+        "tags": ["tool", "manage", "管理", "進捗", "会議"]
       }
     ]
   },
