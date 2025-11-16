@@ -164,6 +164,18 @@
         "desc": "抽出・並べ替え・配点設定。",
         "url": "https://somekata.github.io/datamanagetool/",
         "tags": ["tool", "manage", "管理", "進捗", "会議"]
+      },
+      {
+        "title":"マイルストーン管理ツール",
+        "desc": "マイルストーンの管理。",
+        "url": "https://somekata.github.io/milestone/",
+        "tags": ["tool", "manage", "管理", "進捗"]
+      },
+      {
+        "title":"感染症発生動向可視化ツール",
+        "desc": "IDWRのデータを用いたツール",
+        "url": "https://somekata.github.io/idwrtool/",
+        "tags": ["tool", "発生動向"]
       }
     ]
   },
