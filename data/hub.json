@@ -100,6 +100,12 @@
         "tags": ["game", "VR", "感染対策", "ガウンテクニック"]
       },
       {
+        "title": "bactVR/PPEゲーム",
+        "desc": "ガウンテクニックをVRで学ぶ。",
+        "url": "../bactVR/PPE/index.html",
+        "tags": ["game", "VR", "感染対策", "ガウンテクニック"]
+      },
+      {
         "title": "Plicy Games",
         "desc": "Plicyに「スニップ」として投稿しているゲームの一覧（入口）です。",
         "url": "https://plicy.net/User/81386",
