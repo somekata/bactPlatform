@@ -94,6 +94,12 @@
         "tags": ["game", "バイキンズ", "スロット"]
       },
       {
+        "title": "bactVRゲーム",
+        "desc": "簡易VRで感染対策を学ぶ。",
+        "url": "../bactVR/index.html",
+        "tags": ["game", "VR", "感染対策", "ガウンテクニック"]
+      },
+      {
         "title": "Plicy Games",
         "desc": "Plicyに「スニップ」として投稿しているゲームの一覧（入口）です。",
         "url": "https://plicy.net/User/81386",
