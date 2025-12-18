@@ -185,7 +185,7 @@
       },
             {
         "title":"PRISMA管理ツール",
-        "desc": "マイルストーンの管理。",
+        "desc": "メタ解析の管理。",
         "url": "../prisma-tool",
         "tags": ["tool", "manage", "PRISMA", "レビュー", "メタ解析"]
       },
@@ -266,6 +266,12 @@
         "desc": "csvを読み込んで用語の一覧を確認する。",
         "url": "bactTerms/quiz.html",
         "tags": ["study", "terminology", "学習", "用語"]        
+      },
+      {
+        "title": "Playful Bacteriology",
+        "desc": "日英切り替え付きの細菌楽のページ。",
+        "url": "https://somekata.github.io/playfulBacteriology/",
+        "tags": ["study", "細菌楽", "学習"]
       }
     ]
   }
