@@ -207,6 +207,11 @@
         "url": "https://somekata.github.io/bacteriologytext/",
         "tags": ["study", "細菌学", "感染症", "教材"]
       },
+      {"title": "Bacteriology Essentials",
+        "desc": "主要な細菌の特徴を学ぶ。",
+        "url": "https://somekata.github.io/BacteriologyEssentials/",
+        "tags": ["study", "細菌学", "学習", "微生物学"]
+      },
       {
         "title": "細菌学実験ガイド",
         "desc": "基本操作から安全管理まで。",
