@@ -194,6 +194,12 @@
         "desc": "IDWRのデータを用いたツール",
         "url": "https://somekata.github.io/idwrtool/",
         "tags": ["tool", "発生動向"]
+      },
+      {
+        "title":"RealTimePCRanalyzer",
+        "desc": "GeneSocのリアルタイムPCRデータ解析ツール",
+        "url": "https://somekata.github.io/RealTimePCRanalyzer",
+        "tags": ["tool", "GeneSoc", "RT-PCR", "解析"]
       }
     ]
   },
