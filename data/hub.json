@@ -283,6 +283,12 @@
         "desc": "日英切り替え付きの細菌楽のページ。",
         "url": "https://somekata.github.io/playfulBacteriology/",
         "tags": ["study", "細菌楽", "学習"]
+      },
+      {
+        "title": "bactAIsearch",
+        "desc": "既存の生成AIを用いた感染症・細菌学用語検索ツール。",
+        "url": "https://somekata.github.io/bactAIsearch/",
+        "tags": ["study", "生成AI","chatGPT","Geminie","Perplexity", "学習", "用語"]
       }
     ]
   }
