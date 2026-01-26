@@ -197,7 +197,7 @@
       },
       {
         "title":"RealTimePCRanalyzer",
-        "desc": "GeneSocのリアルタイムPCRデータ解析ツール",
+        "desc": "リアルタイムPCRデータ解析ツール",
         "url": "https://somekata.github.io/RealTimePCRanalyzer",
         "tags": ["tool", "GeneSoc", "RT-PCR", "解析"]
       }
