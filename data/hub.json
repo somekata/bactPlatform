@@ -289,6 +289,12 @@
         "desc": "既存の生成AIを用いた感染症・細菌学用語検索ツール。",
         "url": "https://somekata.github.io/bactAIsearch/",
         "tags": ["study", "生成AI","chatGPT","Geminie","Perplexity", "学習", "用語"]
+      },
+      {
+        "title": "抗微生物薬適正使用の手引き第3版と第4版の比較",
+        "desc": "抗微生物薬適正使用の手引き第3版と第4版の改訂点を整理した。",
+        "url": "https://somekata.github.io/AStebiki/",
+        "tags": ["study", "抗微生物薬適正使用の手引き", "AS", "antimicrobial stewardship"]
       }
     ]
   }
