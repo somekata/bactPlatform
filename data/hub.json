@@ -225,6 +225,12 @@
         "tags": ["study", "実験", "手順", "ガイド"]
       },
       {
+        "title": "実験ノートの書き方",
+        "desc": "実験ノート作成の基本とポイント。",
+        "url": "https://somekata.github.io/labonotebook/",
+        "tags": ["study", "実験ノート", "学習", "ノート"]
+      },
+      {
         "title": "JavaScript 学習サイト",
         "desc": "学習用リンク集とサンプル集。",
         "url": "https://somekata.github.io/javascriptlearn/",
