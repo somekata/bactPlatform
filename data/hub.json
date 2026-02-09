@@ -200,6 +200,12 @@
         "desc": "リアルタイムPCRデータ解析ツール",
         "url": "https://somekata.github.io/RealTimePCRanalyzer",
         "tags": ["tool", "GeneSoc", "RT-PCR", "解析"]
+      },
+      {
+        "title":"PubMed CSV Viewer",
+        "desc":"csvを読み込んで用語の一覧を確認する。",
+        "url":"https://somekata.github.io/pubmedList",
+        "tags":["tool","PubMed"]
       }
     ]
   },
