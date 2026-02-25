@@ -297,6 +297,12 @@
         "tags": ["study", "細菌楽", "学習"]
       },
       {
+        "title": "分子生物学QA",
+        "desc": "分子生物学の基礎をQA形式で解説。",
+        "url": "https://somekata.github.io/MolBioLearn/",
+        "tags": ["study", "gene", "biology", "クイズ", "分子生物学", "遺伝子", "ゲノミクス"]
+      },
+      {
         "title": "bactAIsearch",
         "desc": "既存の生成AIを用いた感染症・細菌学用語検索ツール。",
         "url": "https://somekata.github.io/bactAIsearch/",
