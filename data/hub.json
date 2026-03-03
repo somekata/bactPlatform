@@ -172,7 +172,13 @@
         "tags": ["tool", "exam", "ピックアップ", "教育"]
       },
       {
-        "title":"データ管理ツール",
+        "title": "DMP tool: md builder",
+        "desc": "論文ごとの管理簿mdを、フォーム入力だけで生成・更新します（下書きは一時的にLocalStorage）。",
+        "url": "https://somekata.github.io/DMPtool",
+        "tags": ["tool", "DMP", "データ管理"]
+      },
+      {
+        "title":"会議・タスク管理ツール",
         "desc": "会議の進捗・タスク管理。",
         "url": "https://somekata.github.io/datamanagetool/",
         "tags": ["tool", "manage", "管理", "進捗", "会議"]
