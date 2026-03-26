@@ -222,7 +222,7 @@
       {
         "title":"ScheduleViewer",
         "desc":"研究室探訪のスケジュールを閲覧するツール。",
-        "url":"https://somekata.github.io/scheduler/view.html",
+        "url":"https://somekata.github.io/scheduler/viewer.html",
         "tags":["tool", "scheduler", "スケジュール", "閲覧"]        
       }
     ]
