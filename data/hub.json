@@ -212,6 +212,18 @@
         "desc":"csvを読み込んでPublication listを作成する。",
         "url":"https://somekata.github.io/pubmedList",
         "tags":["tool","PubMed"]
+      },
+      {
+        "title":"Scheduler",
+        "desc":"研究室探訪のスケジュール管理ツール。",
+        "url":"https://somekata.github.io/scheduler/index.html",
+        "tags":["tool","scheduler", "スケジュール", "管理"]
+      },
+      {
+        "title":"ScheduleViewer",
+        "desc":"研究室探訪のスケジュールを閲覧するツール。",
+        "url":"https://somekata.github.io/scheduler/view.html",
+        "tags":["tool", "scheduler", "スケジュール", "閲覧"]        
       }
     ]
   },
