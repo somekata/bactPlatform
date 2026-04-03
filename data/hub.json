@@ -337,6 +337,12 @@
         "desc": "メタ解析の流れをフローチャートで解説（英語、一部日本語）。",
         "url": "https://somekata.github.io/metaanalysis/",
         "tags": ["study", "メタ解析", "metaanalysis", "フローチャート"]
+      },
+      {
+        "title": "MetaFlow",
+        "desc": "システマティックレビュー・メタ解析のための文献管理ツール集。",
+        "url": "https://somekata.github.io/metaanalysis/duplicateChecker/index.html",
+        "tags": ["study", "システマティックレビュー", "systematic review", "文献管理"]
       }
     ]
   }
