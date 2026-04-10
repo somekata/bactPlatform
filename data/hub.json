@@ -349,6 +349,12 @@
         "desc": "独断で選んだ感染症系のおすすめ雑誌の紹介ページ。",
         "url": "https://somekata.github.io/links/journals/",
         "tags": ["study", "雑誌", "学習", "感染症"]
+      },
+      {
+        "title": "AIに関するブログ記事のまとめ",
+        "desc": "既存の生成AIについての個人的見解をまとめたページ。",
+        "url": "https://somekata.github.io/links/ai-journal/",
+        "tags": ["study", "AI", "ブログ", "学習"]
       }
     ]
   }
