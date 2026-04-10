@@ -343,6 +343,12 @@
         "desc": "システマティックレビュー・メタ解析のための文献管理ツール集。",
         "url": "https://somekata.github.io/metaanalysis/duplicateChecker/index.html",
         "tags": ["study", "システマティックレビュー", "systematic review", "文献管理"]
+      },
+      {
+        "title": "感染症系のおすすめ雑誌",
+        "desc": "独断で選んだ感染症系のおすすめ雑誌の紹介ページ。",
+        "url": "https://somekata.github.io/links/journals/",
+        "tags": ["study", "雑誌", "学習", "感染症"]
       }
     ]
   }
