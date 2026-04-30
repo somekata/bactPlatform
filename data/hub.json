@@ -110,6 +110,12 @@
         "desc": "Plicyに「スニップ」として投稿しているゲームの一覧（入口）です。",
         "url": "https://plicy.net/User/81386",
         "tags": ["game", "Plicy"]
+      },
+      {
+        "title":"BactAttac",
+        "desc":"細菌を撃破するシューティングゲーム。",
+        "url":"https://bact-attack-lab.base44.app/",
+        "tags": ["game", "AMR", "シューティング"]
       }
     ]
   },
