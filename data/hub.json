@@ -116,6 +116,12 @@
         "desc":"細菌を撃破するシューティングゲーム。",
         "url":"https://bact-attack-lab.base44.app/",
         "tags": ["game", "AMR", "シューティング"]
+      },
+      {
+        "title":"BacteriaBuster",
+        "desc":"細菌を撃破するシューティングゲーム。",
+        "url":"https://somekata.github.io/bacteriaBusterWebGL",
+        "tags": ["game", "AMR", "シューティング"]
       }
     ]
   },
