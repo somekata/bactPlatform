@@ -122,6 +122,12 @@
         "desc":"細菌を撃破するシューティングゲーム。",
         "url":"https://somekata.github.io/bacteriaBusterWebGL",
         "tags": ["game", "AMR", "シューティング"]
+      },
+      {
+        "title":"Gram Stain Master",
+        "desc":"グラム染色の手順を学ぶゲーム",
+        "url":"https://somekata.github.io/gramStain/index.html",
+        "tags": ["game", "グラム染色", "教育"]
       }
     ]
   },
