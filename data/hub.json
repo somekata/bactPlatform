@@ -373,6 +373,12 @@
         "desc": "既存の生成AIについての個人的見解をまとめたページ。",
         "url": "https://somekata.github.io/links/ai-journal/",
         "tags": ["study", "AI", "ブログ", "学習"]
+      },
+      {
+        "title":"意外と知らないWordの機能",
+        "desc":"Wordの便利な機能を紹介するページ。",
+        "url":"https://somekata.github.io/links/word-tips/word-tips.html",
+        "tags":["study", "Word", "学習", "便利機能"]
       }
     ]
   }
