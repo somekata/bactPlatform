@@ -160,22 +160,10 @@
     "theme": "blue",
     "items": [
       {
-        "title": "学会審査アシスタント",
+        "title": "抄録審査支援ツール",
         "desc": "査読・事前審査の効率化支援。",
         "url": "https://somekata.github.io/assessAssistJs/",
         "tags": ["tool", "学会", "審査", "評価"]
-      },
-      {
-        "title": "採点結果 集計ツール",
-        "desc": "提出結果の集計と可視化。",
-        "url": "https://somekata.github.io/assessManage/",
-        "tags": ["tool", "採点", "集計", "可視化"]
-      },
-      {
-        "title": "採点結果 閲覧ツール",
-        "desc": "集計済みデータの閲覧用ビュー。",
-        "url": "https://somekata.github.io/assessManage/view.html",
-        "tags": ["tool", "採点", "閲覧", "ビューア"]
       },
       {
         "title": "試験問題管理ツール",
