@@ -161,8 +161,8 @@
     "items": [
       {
         "title": "論文査読支援ツール",
-        "desc": "PDFをアップロードして、ページの自動抽出、コメント入力を支援します。",
-        "url": "https://somekata.github.io/review-assist/jic_reviewer.html",
+        "desc": "PDFをアップロードして、ページの自動抽出、コメント入力を支援します。フロントエンドのみのツールで、データはブラウザ内で処理されます。データが外部に送信されることはありません。",
+        "url": "https://somekata.github.io/links/review-assist/jic_reviewer.html",
         "tags": ["tool", "literature", "CSV", "管理"]
       },  
       {
