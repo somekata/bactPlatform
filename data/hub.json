@@ -160,6 +160,12 @@
     "theme": "blue",
     "items": [
       {
+        "title": "論文査読支援ツール",
+        "desc": "PDFをアップロードして、ページの自動抽出、コメント入力を支援します。",
+        "url": "https://somekata.github.io/review-assist/jic_reviewer.html",
+        "tags": ["tool", "literature", "CSV", "管理"]
+      },  
+      {
         "title": "抄録審査支援ツール",
         "desc": "査読・事前審査の効率化支援。",
         "url": "https://somekata.github.io/assessAssistJs/",
