@@ -128,6 +128,12 @@
         "desc":"グラム染色の手順を学ぶゲーム",
         "url":"https://somekata.github.io/bactVR/gramStain/",
         "tags": ["game", "グラム染色", "教育"]
+      },
+      {
+        "title":"bact_detetor",
+        "desc":"感染症の原因を推理し、診断するゲーム",
+        "url":"https://somekata.github.io/links/bact_detector/game.html",
+        "tags": ["game", "クイズ", "感染症", "教育","PCR","POCT"]
       }
     ]
   },
