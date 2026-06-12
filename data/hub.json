@@ -130,10 +130,16 @@
         "tags": ["game", "グラム染色", "教育"]
       },
       {
-        "title":"bact_detetor",
+        "title":"感染症探偵ゲーム",
         "desc":"感染症の原因を推理し、診断するゲーム",
         "url":"https://somekata.github.io/links/bact_detector/game.html",
         "tags": ["game", "クイズ", "感染症", "教育","PCR","POCT"]
+      },
+      {
+        "title":"FunFection: 感染症探偵ゲーム",
+        "desc":"感染症探偵ゲームをbase44で作り直したものです。",
+        "url":"https://fun-fever-solve.base44.app/",
+        "tags": ["game", "クイズ", "感染症", "教育"]
       }
     ]
   },
