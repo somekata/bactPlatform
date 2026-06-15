@@ -385,6 +385,12 @@
         "desc":"Wordの便利な機能を紹介するページ。",
         "url":"https://somekata.github.io/links/word-tips/word-tips.html",
         "tags":["study", "Word", "学習", "便利機能"]
+      },
+      {
+        "title":"感染症検査",
+        "desc":"核酸増幅法を中心に感染症検査を学ぶ。",
+        "url":"https://somekata.github.io/links/medStory/NAAT/index.html",
+        "tags": ["NAAT", "学習", "感染症検査", "教育"]
       }
     ]
   }
