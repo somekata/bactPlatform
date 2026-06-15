@@ -34,6 +34,12 @@
     "theme": "orange",
     "items": [
       {
+        "title": "バイキンズ®アトラクションズ",
+        "desc": "3つのアトラクションのエントリーページです。",
+        "url": "https://somekata.github.io/baikins-attractions/index.html", 
+        "tags": ["game", "クイズ", "バイキンズ", "ハイエンキューキン王との決闘","バイキンズシルエットクイズ","バイキンズ紙芝居"]
+      },
+      {
         "title": "中耳炎ゲーム",
         "desc": "中耳炎ケースで学ぶ意思決定ゲーム。",
         "url": "https://html5.plicy.net/GamePlay/188400",
