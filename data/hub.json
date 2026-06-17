@@ -397,6 +397,18 @@
         "desc":"核酸増幅法を中心に感染症検査を学ぶ。",
         "url":"https://somekata.github.io/links/medStory/NAAT/index.html",
         "tags": ["NAAT", "学習", "感染症検査", "教育"]
+      },
+      {
+        "title":"感染症を学ぶ医学英語",
+        "desc":"辞書で調べる・授業スタイルで学ぶ、2つのアプローチで医学英語を習得。",
+        "url":"https://somekata.github.io/Terminology/index.html",
+        "tags": ["医学英語", "医学用語", "学習", "Medical Terminology"]
+      },
+      {
+        "title":"現場で使える医学英語",
+        "desc":"外来・救急・病棟で、今日から使えるフレーズと会話文を学ぶ。",
+        "url":"https://somekata.github.io/Terminology/medical_english.html",
+        "tags": ["医学英語", "学習", "教育", "Medical English"]
       }
     ]
   }
