@@ -273,6 +273,12 @@
         "tags": ["study", "細菌学", "学習", "微生物学"]
       },
       {
+        "title": "抗菌薬学シリーズ",        
+        "desc": "抗菌薬の作用機序・分類・特徴を学ぶ。",
+        "url": "https://somekata.github.io/bacteriologytext/new/antimicrobial_series_index.html/",
+        "tags": ["study", "感染症", "学習", "微生物学"]
+      },
+      {
         "title": "細菌学実験ガイド",
         "desc": "基本操作から安全管理まで。",
         "url": "https://somekata.github.io/bact-guide/",
