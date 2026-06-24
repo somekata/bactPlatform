@@ -152,6 +152,12 @@
         "desc":"感染症探偵ゲームをbase44で作り直したものです。",
         "url":"https://fun-fever-solve.base44.app/",
         "tags": ["game", "クイズ", "感染症", "教育"]
+      },
+      {
+        "title":"バイキンズビンゴ",
+        "desc":"バイキンズの特徴をビンゴで学ぶ。",
+        "url":"https://somekata.github.io/links/bingo/bingo_entry.html",
+        "tags": ["game", "バイキンズ", "ビンゴ"]
       }
     ]
   },
