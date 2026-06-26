@@ -158,6 +158,12 @@
         "desc":"バイキンズの特徴をビンゴで学ぶ。",
         "url":"https://somekata.github.io/links/bingo/bingo_entry.html",
         "tags": ["game", "バイキンズ", "ビンゴ"]
+      },
+      {
+        "title":"PCR simulation",
+        "desc":"PCRの流れをシミュレーションするゲーム。",
+        "url":"https://somekata.github.io/links/medStory/NAAT/qpcr_diagnostic_sim.html",
+        "tags": ["game", "PCR", "シミュレーション"]
       }
     ]
   },
