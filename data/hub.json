@@ -258,7 +258,7 @@
       {
         "title":"PubMed CSV Viewer",
         "desc":"csvを読み込んでPublication listを作成する。",
-        "url":"https://somekata.github.io/pubmedList",
+        "url":"https://somekata.github.io/pubmedList/pubmed_viewer.html",
         "tags":["tool","PubMed"]
       },
       {
