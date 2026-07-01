@@ -433,6 +433,12 @@
         "desc":"外来・救急・病棟で、今日から使えるフレーズと会話文を学ぶ。",
         "url":"https://somekata.github.io/Terminology/medical_english.html",
         "tags": ["医学英語", "学習", "教育", "Medical English"]
+      },
+      {
+        "title":"寄生虫学習サイト",
+        "desc":"寄生虫学習のための備忘録的なサイト。",
+        "url":"https://somekata.github.io/links/parasite/parasite00.html",
+        "tags": ["寄生虫学", "学習", "教育"]
       }
     ]
   }
