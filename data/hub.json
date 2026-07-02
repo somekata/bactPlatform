@@ -262,6 +262,12 @@
         "tags":["tool","PubMed"]
       },
       {
+        "title":"採点可視化ツール",
+        "desc":"csvを読み込んで採点の可視化を行う。",
+        "url":"https://somekata.github.io/links/score_analyzer/score_distribution_analyzer.html",
+        "tags":["tool","PubMed"]
+      },
+      {
         "title":"Scheduler",
         "desc":"研究室探訪のスケジュール管理ツール。",
         "url":"https://somekata.github.io/scheduler/index.html",
