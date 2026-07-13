@@ -445,6 +445,18 @@
         "desc":"寄生虫学習のための備忘録的なサイト。",
         "url":"https://somekata.github.io/links/parasite/parasite00.html",
         "tags": ["寄生虫学", "学習", "教育"]
+      },
+      {
+        "title":"よぼうせっしゅ人生すごろく",
+        "desc":"予防接種の知識をすごろくで学ぶ。",
+        "url":"https://somekata.github.io/links/medStory/funBact/vaccine-sugoroku.html",
+        "tags": ["予防接種", "学習", "教育"]
+      },
+      {
+        "title":"結核治療",
+        "desc":"結核の治療を学ぶ",
+        "url":"https://somekata.github.io/links/medStory/funBact/tb_treatment_simulation.html",
+        "tags": ["結核", "学習", "教育"]
       }
     ]
   }
