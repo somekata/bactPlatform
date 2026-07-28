@@ -118,6 +118,18 @@
         "tags": ["game", "VR", "感染対策", "ガウンテクニック"]
       },
       {
+        "title": "Baikins AR",
+        "desc": "好きなバイキンズと一緒に写真を撮ろう。",
+        "url": "../bactVR/baikinAR/baikins-ar.html",
+        "tags": ["AR", "教育", "バイキンズ", "写真"]
+      },
+      {
+        "title": "Baikins AI Scouter",
+        "desc": "好きなバイキンズを探して、一緒に写真を撮ろう。",
+        "url": "../bactVR/baikinAR/baikinsAR.html",
+        "tags": ["AR", "教育", "バイキンズ", "写真"]
+      },
+      {
         "title": "Plicy Games",
         "desc": "Plicyに「スニップ」として投稿しているゲームの一覧（入口）です。",
         "url": "https://plicy.net/User/81386",
