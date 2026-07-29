@@ -262,6 +262,12 @@
         "tags": ["tool", "発生動向"]
       },
       {
+        "title":"感染症発生動向可視化ツール（週別）",
+        "desc": "IDWRのデータを用いたツール（週別）",
+        "url": "https://somekata.github.io/idwrtool/idwr_graph_builder.html",
+        "tags": ["tool", "発生動向"]
+      },
+      {
         "title":"RealTimePCRanalyzer",
         "desc": "リアルタイムPCRデータ解析ツール",
         "url": "https://somekata.github.io/RealTimePCRanalyzer",
