@@ -296,6 +296,12 @@
         "desc":"研究室探訪のスケジュールを閲覧するツール。",
         "url":"https://somekata.github.io/scheduler/viewer.html",
         "tags":["tool", "scheduler", "スケジュール", "閲覧"]        
+      },
+      {
+        "title":"CSV Map Plotter",
+        "desc":"緯度と経度の情報とcsvの情報を紐づけて地図上に表示するツール。",
+        "url":"https://somekata.github.io/links/tools/csv_map_plotter.html",
+        "tags":["tool", "CSV", "地図", "可視化"]
       }
     ]
   },
