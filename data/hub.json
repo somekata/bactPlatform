@@ -481,7 +481,13 @@
         "desc":"結核の治療を学ぶ",
         "url":"https://somekata.github.io/links/medStory/funBact/tb_treatment_simulation.html",
         "tags": ["結核", "学習", "教育"]
-      }
+      },
+       {
+        "title":"問診シミュレーター",
+        "desc":"問診の仕方を学ぶ",
+        "url":"https://somekata.github.io/links/medStory/monshin/monshin_simulator.html",
+        "tags": ["問診", "学習", "教育"]
+      }     
     ]
   }
 ]
