@@ -176,6 +176,12 @@
         "desc":"PCRの流れをシミュレーションするゲーム。",
         "url":"https://somekata.github.io/links/medStory/NAAT/qpcr_diagnostic_sim.html",
         "tags": ["game", "PCR", "シミュレーション"]
+      },
+      {
+        "title":"Baikin Adventure",
+        "desc":"探索しながらバイキンズと戦うゲーム",
+        "url":"https://somekata.github.io/links/medStory/baikinAdv/baikin_adventure.html",
+        "tags":["game","adventure","バイキンズ"]
       }
     ]
   },
