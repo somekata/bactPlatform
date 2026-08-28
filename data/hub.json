@@ -176,12 +176,6 @@
         "desc":"PCRの流れをシミュレーションするゲーム。",
         "url":"https://somekata.github.io/links/medStory/NAAT/qpcr_diagnostic_sim.html",
         "tags": ["game", "PCR", "シミュレーション"]
-      },
-      {
-        "title":"Baikin Adventure",
-        "desc":"探索しながらバイキンズと戦うゲーム",
-        "url":"https://somekata.github.io/links/medStory/baikinAdv/baikin_adventure.html",
-        "tags":["game","adventure","バイキンズ"]
       }
     ]
   },
@@ -307,6 +301,12 @@
         "title":"CSV Map Plotter",
         "desc":"緯度と経度の情報とcsvの情報を紐づけて地図上に表示するツール。",
         "url":"https://somekata.github.io/links/tools/csv_map_plotter.html",
+        "tags":["tool", "CSV", "地図", "可視化"]
+      },
+      {
+        "title":"term searcher",
+        "desc":"緯度と経度の情報とcsvの情報を紐づけて地図上に表示するツール。",
+        "url":"https://somekata.github.io/links/tools/termSearch/docx_pdf_term_search.html",
         "tags":["tool", "CSV", "地図", "可視化"]
       }
     ]
