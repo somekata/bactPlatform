@@ -305,9 +305,15 @@
       },
       {
         "title":"term searcher",
-        "desc":"緯度と経度の情報とcsvの情報を紐づけて地図上に表示するツール。",
+        "desc":"用語を自動的に検出する",
         "url":"https://somekata.github.io/links/tools/termSearch/docx_pdf_term_search.html",
-        "tags":["tool", "CSV", "地図", "可視化"]
+        "tags":["tool", "term", "用語", "便利"]
+      },
+      {
+        "title":"QR Code Maker",
+        "desc":"オリジナルのQRコードを作成する",
+        "url":"https://somekata.github.io/links/medStory/QRcodeMaker/",
+        "tags":["tool", "term", "用語", "便利"]
       }
     ]
   },
