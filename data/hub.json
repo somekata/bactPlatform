@@ -142,6 +142,12 @@
         "tags": ["game", "AMR", "シューティング"]
       },
       {
+        "title":"BactAttack Lab",
+        "desc":"BactAttackの改良β版",
+        "url":"https://somekata.github.io/links/medStory/BactAttackLab/index.html",
+        "tag":["game", "AMR", "シューティング"]
+      }
+      {
         "title":"BacteriaBuster",
         "desc":"細菌を撃破するシューティングゲーム。",
         "url":"https://somekata.github.io/bacteriaBusterWebGL",
