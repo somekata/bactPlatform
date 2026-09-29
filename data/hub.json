@@ -178,6 +178,18 @@
         "tags": ["game", "クイズ", "感染症", "教育"]
       },
       {
+        "title":"Santaku Time Attack",
+        "desc":"三択で選ぶ細菌学ゲーム",
+        "url":"https://somekata.github.io/links/medStory/santaku/santaku.html",
+        "tags": ["game", "クイズ", "感染症", "教育"]
+      },      
+      {
+        "title":"Santaku Time Attack Multi",
+        "desc":"三択で選ぶ細菌学ゲーム　マルチ版",
+        "url":"https://somekata.github.io/links/medStory/santaku/santaku_multi.html",
+        "tags": ["game", "クイズ", "感染症", "教育"]
+      },
+      {
         "title":"バイキンズビンゴ",
         "desc":"バイキンズの特徴をビンゴで学ぶ。",
         "url":"https://somekata.github.io/links/bingo/bingo_entry.html",
