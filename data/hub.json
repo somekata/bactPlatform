@@ -152,7 +152,13 @@
         "desc":"BactAttackのLungβ版",
         "url":"https://somekata.github.io/links/medStory/BactAttackLab/lung.html",
         "tag":["game", "CAP", "市中肺炎", "シューティング"]
-      },      
+      },
+      {
+        "title":"BactAttack Shoot",
+        "desc":"BactAttackのShoot版",
+        "url":"https://somekata.github.io/links/medStory/BactAttackLab/shoot.html",
+        "tag":["game", "AMR", "シューティング"]
+      },        
       {
         "title":"BacteriaBuster",
         "desc":"細菌を撃破するシューティングゲーム。",
