@@ -136,6 +136,12 @@
         "tags": ["game", "Plicy"]
       },
       {
+        "title":"FunFection-bASTers",
+        "desc":"抗菌薬適正使用を考えるシューティングゲーム。",
+        "url":"https://funfection-basters.base44.app",
+        "tags": ["game", "AMR", "AST", "シューティング"]
+      },      
+      {
         "title":"BactAttack",
         "desc":"細菌を撃破するシューティングゲーム。",
         "url":"https://bact-attack-lab.base44.app/",
