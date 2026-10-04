@@ -190,6 +190,12 @@
         "tags": ["game", "グラム染色", "教育"]
       },
       {
+        "title":"Test Simulation",
+        "desc":"検査の手順を学ぶ",
+        "url":"https://somekata.github.io/links/medStory/bactPlay/index.html",
+        "tags": ["game", "検査", "教育"]
+      },      
+      {
         "title":"感染症探偵ゲーム",
         "desc":"感染症の原因を推理し、診断するゲーム",
         "url":"https://somekata.github.io/links/bact_detector/game.html",
