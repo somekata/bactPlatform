@@ -553,7 +553,13 @@
         "desc":"問診の仕方を学ぶ",
         "url":"https://somekata.github.io/links/medStory/monshin/monshin_simulator.html",
         "tags": ["問診", "学習", "教育"]
-      }     
+      },
+      {
+        "title":"mASTers",
+        "desc":"多肢選択問題集",
+        "url":"https://somekata.github.io/links/medStory/mASTers/index.html",
+        "tags":["学習","問題","教育","FilGAP"]
+      }
     ]
   }
 ]
