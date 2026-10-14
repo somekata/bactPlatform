@@ -571,7 +571,19 @@
         "desc":"多肢選択問題集",
         "url":"https://somekata.github.io/links/medStory/mASTers/index.html",
         "tags":["学習","問題","教育","FilGAP"]
-      }
+      },
+      {
+        "title":"Rと統計",
+        "desc":"統計学の基本とRの使い方",
+        "url":"https://somekata.github.io/links/medStory/statistics/r_statistics_text.html",
+        "tags":["学習","統計","教育","R"]
+      },
+      {
+        "title":"Rと統計：復習問題",
+        "desc":"Rと統計の復習問題",
+        "url":"https://somekata.github.io/links/medStory/statistics/r_practice_questions.html",
+        "tags":["学習","統計","問題","教育","R"]
+      }      
     ]
   }
 ]
