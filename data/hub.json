@@ -573,6 +573,12 @@
         "tags":["学習","問題","教育","FilGAP"]
       },
       {
+        "title":"Rと統計のメモ",
+        "desc":"備忘録的にまとめたものです",
+        "url":"https://somekata.github.io/links/statistics/",
+        "tags":["学習","統計","教育","R"]
+      },     
+      {
         "title":"Rと統計",
         "desc":"統計学の基本とRの使い方",
         "url":"https://somekata.github.io/links/medStory/statistics/r_statistics_text.html",
