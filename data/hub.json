@@ -589,6 +589,12 @@
         "desc":"Rと統計の復習問題",
         "url":"https://somekata.github.io/links/medStory/statistics/r_practice_questions.html",
         "tags":["学習","統計","問題","教育","R"]
+      },
+      {
+        "title":"Rサンプルコード",
+        "desc":"細菌学用Rサンプルコード",
+        "url":"https://somekata.github.io/links/medStory/statistics/",
+        "tags":["学習","統計","R","サンプル"]
       }      
     ]
   }
