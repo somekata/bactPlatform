@@ -374,6 +374,12 @@
         "desc":"オリジナルのQRコードを作成する",
         "url":"https://somekata.github.io/links/medStory/QRcodeMaker/",
         "tags":["tool", "term", "用語", "便利"]
+      },
+      {
+        "title":"md to pdf converter",
+        "desc":"mdファイルをpdfに変換する",
+        "url":"https://somekata.github.io/links/tools/md_pdf_converter/index.html",
+        "tags":["tool", "pdf", "converter", "便利"]
       }
     ]
   },
