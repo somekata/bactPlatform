@@ -453,11 +453,17 @@
         "tags": ["study", "プログラミング", "リンク集", "学習"]
       },
       {
+        "title": "バイキンズカード一覧",
+        "desc": "キャラクターで学ぶ微生物の個性。",
+        "url": "https://somekata.github.io/baikinsPoker/baikinsCard.html",
+        "tags": ["study", "バイキンズ", "キャラクター", "カード"]
+      },
+      {
         "title": "バイキンズキャラクターの紹介",
         "desc": "キャラクターで学ぶ微生物の個性。",
         "url": "https://somekata.github.io/baikinscharacters/",
         "tags": ["study", "バイキンズ", "キャラクター", "紹介"]
-      },
+      },      
       {
         "title": "感染症クイズ",
         "desc": "知識をゲーム感覚でチェック。",
