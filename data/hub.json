@@ -10,6 +10,12 @@
         "tags": ["home", "department", "教室", "細菌学"]
       },
       {
+        "title": "細菌学教室 臨時サイト",
+        "desc": "大阪公立大学医学部 細菌学教室 臨時サイト。",
+        "url": "https://somekata.github.io/omumdb",
+        "tags": ["home", "department", "教室", "細菌学"]
+      },      
+      {
         "title": "ILOHA",
         "desc": "Infection Lecture at OMU Hospital & Affiliates。事前学習・用語集ほか。",
         "url": "https://www.omu.ac.jp/med/iloha/",
