@@ -178,6 +178,12 @@
         "tags": ["game", "AMR", "シューティング"]
       },
       {
+        "title":"BactAttack2",
+        "desc":"BactAttackの改良版（2026/11/15）",
+        "url":"https://somekata.github.io/links/medStory/BactAttackLab/bactAttack2.html",
+        "tags": ["game", "AMR", "シューティング"]
+      },
+      {
         "title":"BactAttack Lab",
         "desc":"BactAttackの改良β版",
         "url":"https://somekata.github.io/links/medStory/BactAttackLab/index.html",
