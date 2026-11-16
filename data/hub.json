@@ -184,6 +184,12 @@
         "tags": ["game", "AMR", "シューティング"]
       },
       {
+        "title":"BactAttack Time Attack",
+        "desc":"BactAttackのタイムアタック版（2026/11/16）",
+        "url":"https://somekata.github.io/links/medStory/BactAttack2_TimeAttack.html",
+        "tags": ["game", "AMR", "シューティング"]
+      },      
+      {
         "title":"BactAttack Lab",
         "desc":"BactAttackの改良β版",
         "url":"https://somekata.github.io/links/medStory/BactAttackLab/index.html",
