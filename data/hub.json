@@ -188,7 +188,13 @@
         "desc":"BactAttackのタイムアタック版（2026/11/16）",
         "url":"https://somekata.github.io/links/medStory/BactAttack2_TimeAttack.html",
         "tags": ["game", "AMR", "シューティング"]
-      },      
+      },
+      {
+        "title":"BactAttack II @ base 44",
+        "desc":"BactAttack IIのbase44のbeta版（2026/11/16）",
+        "url":"https://bact-strike-evo.base44.app/play",
+        "tags": ["game", "AMR", "シューティング"]
+      },
       {
         "title":"BactAttack Lab",
         "desc":"BactAttackの改良β版",
