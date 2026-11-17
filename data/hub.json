@@ -637,7 +637,13 @@
         "desc":"文献を整理するツール",
         "url":"https://somekata.github.io/links/tools/literatureMapper",
         "tags":["ツール","文献整理","PubMed"]
-      }      
+      },
+      {
+        "title":"増殖曲線",
+        "desc":"増殖曲線と倍加時間を求める",
+        "url":"https://somekata.github.io/links/tools/growth",
+        "tags":["ツール","実験","増殖曲線","倍加時間"]
+      }            
     ]
   }
 ]
