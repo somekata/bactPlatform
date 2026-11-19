@@ -208,6 +208,12 @@
         "tags": ["game", "UTI", "シューティング"]
       },
       {
+        "title":"BactAttack2-Fungi",
+        "desc":"BactAttack2の真菌バージョン（2026/11/19）",
+        "url":"https://somekata.github.io/links/medStory/BactAttackLab/bactAttack-Fungi.html",
+        "tags": ["game", "真菌", "シューティング"]
+      },
+      {
         "title":"BactAttack II @ base 44",
         "desc":"BactAttack IIのbase44のbeta版（2026/11/16）",
         "url":"https://bact-strike-evo.base44.app/play",
