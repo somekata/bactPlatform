@@ -191,10 +191,16 @@
       },
       {
         "title":"BactAttack4",
-        "desc":"BactAttackの最新版：タイムアタックとの切り替え（2026/11/20）",
+        "desc":"BactAttack：タイムアタックとの切り替え（2026/11/20）",
         "url":"https://somekata.github.io/links/medStory/BactAttackLab/bactAttack4.html",
         "tags": ["game", "AMR", "シューティング"]
       }, 
+      {
+        "title":"BactAttack5",
+        "desc":"BactAttackの最新版：3D版（2026/11/23）",
+        "url":"https://somekata.github.io/links/medStory/BactAttackLab/bactAttack5.html",
+        "tags": ["game", "AMR", "シューティング"]
+      },      
       {
         "title":"BactAttack Time Attack",
         "desc":"BactAttackのタイムアタック版（2026/11/16）",
