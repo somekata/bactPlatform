@@ -663,6 +663,12 @@
         "tags":["ツール","文献整理","PubMed"]
       },
       {
+        "title":"posit cloudの使い方",
+        "desc":"posit cloudの使い方をまとめました",
+        "url":"https://somekata.github.io/links/tools/positcloud",
+        "tags":["ツール","posit cloud","R"]
+      },
+      {
         "title":"増殖曲線",
         "desc":"増殖曲線と倍加時間を求める",
         "url":"https://somekata.github.io/links/tools/growth",
