@@ -112,6 +112,12 @@
         "tags": ["game", "バイキンズ", "対戦"]
       },
       {
+        "title": "Micro Quest",
+        "desc": "抗菌薬適正使用を学ぶゲーム",
+        "url": "https://microquest.shirosomekata.workers.dev/",
+        "tags": ["game", "抗菌薬適正使用", "対戦", "AS"]
+      },      
+      {
         "title": "バイキンズゲット",
         "desc": "収集しながら菌の特徴を覚える。",
         "url": "https://html5.plicy.net/GamePlay/200325",
